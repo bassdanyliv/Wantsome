@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Reservation Form</title>
+</head>
+
+<body>
+    <h2>Travel reservation form</h2>
+    <h4><sup>*</sup>denotes mandatory</h4>
+    <form>
+
+        <label for="full_name">Full name*:</label><br>
+        <input type='text' id="full_name" name='full_name' placeholder="FirstName LastName" required>
+        <br>
+        <label for="mail">Email address*:</label><br>
+        <input type='email' id="mail" name='email' placeholder="Email_Address" required>
+        <br>
+        <label for="tour_package">Select Tour Package*:</label><br>
+        <select name="tour_package" id="tour_package">
+            <option value="goa">Goa</option>
+            <option value="rome">Rome</option>
+        </select><br>
+        <label for="date">Arrival date*</label><br>
+        <input type="text" id="date" name="date" placeholder="m/d/y"><br>
+        <label for="persons">Number of persons*:</label> <br>
+        <input type="number" id="persons" name="persons" placeholder="unknown_type">
+        <br>
+        <p>What would you want to avail?*:</p>
+        <label for="boarding">Boarding</label>
+        <input type="checkbox" name="boarding" id="boarding"><br>
+        <label for="fooding">Fooding</label>
+        <input type="checkbox" name="fooding" id="fooding"><br>
+        <label for="sight_seeing">Sight seeing</label>
+        <input type="checkbox" name="sight_seeing" id="sight_seeing"><br><br>
+        <label for="discount">Discount Coupon code:</label><br>
+        <input type="text" name="discount" id="discount" placeholder="unknown_type"><br><br>
+        <label for="terms">Terms and conditions*:</label><br>
+        <input type="radio" name="terms" id="terms" value="I agree">I agree
+        <input type="radio" name="terms" id="terms" value="I disagree">I disagree<br><br>
+
+        <input type="submit" value="Complete reservation">
+
+    </form>
+
+</body>
+
+</html>
