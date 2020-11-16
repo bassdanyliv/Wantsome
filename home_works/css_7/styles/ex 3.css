@@ -1,0 +1,126 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e74c3c,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e74c3c,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  background-color: #0e918c;
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  height: 110px;
+  display: flex;
+  justify-content: flex-start;
+}
+.header_img {
+  width: 150px;
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-image: url(DSC04770.jpg);
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+}
+
+.header_img_text {
+  width: 550px;
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 10px;
+  background-image: url(8020303.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-color: #0e918c;
+  font-size: 30px;
+  height: 70px;
+  margin-top: auto;
+}
+
+p {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+
+main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div {
+  width: 700px;
+  height: 350px;
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bottom {
+  width: 700px;
+  height: 45px;
+  background-color: rgba(1, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom h1 {
+  color: white;
+  font-size: calc(1vw + 2vh);
+  margin: 0;
+  padding-left: 10px;
+  position: absolute;
+  top: 94%;
+  transform: translate(0, -100%);
+}
+
+.div_1 {
+  background-image: url(appetizers.jpg);
+}
+
+.div_2 {
+  background-image: url(breads.jpg);
+}
+
+.div_3 {
+  background-image: url(drinks.jpg);
+}
+
+.div_4 {
+  background-image: url(fast.jpg);
+}
+
+.fa-facebook {
+  padding: 20px;
+  padding-right: 30px;
+  color: blue;
+  text-align: center;
+  float: right;
+}
+
+.fa-instagram {
+  padding: 20px;
+  color: red;
+  float: right;
+}

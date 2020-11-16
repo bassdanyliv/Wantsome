@@ -1,0 +1,29 @@
+
+    body {
+        margin-bottom: 50px;
+      }
+
+      nav {
+        width: 125px;
+  
+      }
+      ul li {
+        color: black;
+        list-style-type: disc;
+      }
+
+      ul li span {
+        color: blueviolet;
+      }
+      #top {
+        position: absolute;
+        top: 0px;
+        margin-left: 140px;
+      
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0px;
+        left: 20%;
+      }

@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7fbe1;
+}
+
+header {
+  background-color: rgb(64, 191, 159);
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  height: 70px;
+}
+
+footer {
+  background-color: rgb(64, 191, 159);
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  height: 70px;
+  margin-top: auto;
+}
+
+main {
+  background-color: rgba(64, 191, 159, 0.3);
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+div {
+  width: 250px;
+  height: 250px;
+  display: inline;
+  background-size: cover;
+  background-position: center;
+}
+
+.div_1 {
+  background-image: url(Bass+Guitar.jpg);
+}
+
+.div_2 {
+  background-image: url(piano.jpg);
+}
+
+.div_3 {
+    background-image: url(drums.jpeg);
+}

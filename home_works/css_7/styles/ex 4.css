@@ -1,0 +1,156 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e74c3c,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e74c3c,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  background-color: #0e918c;
+  color: white;
+  font-size: 30px;
+  padding-left: 20px;
+  height: 110px;
+  display: flex;
+}
+.header_img {
+  width: 150px;
+  height: 80px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.header_text {
+  width: 600px;
+  height: 80px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #0e918c;
+  font-size: 30px;
+  height: 70px;
+  margin-top: auto;
+}
+
+p {
+  display: inline;
+  color: white;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: right;
+}
+
+main {
+  /* width: 1350px;
+  height: 730px; */
+  width: 80vw;
+  height: 730px;
+  display: grid;
+  margin-top: 2%;
+  margin-left: 15%;
+
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% auto;
+  gap: 10px 10px;
+  border: 2px solid blue;
+}
+
+
+.div_1 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.div_2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+.div_3 {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+}
+
+.div_4 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+}
+div {
+  width: 660px;
+  height: 350px;
+  display: inline;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.bottom {
+  width: 600px;
+  height: 45px;
+  background-color: rgba(1, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom h1 {
+  color: white;
+  font-size: calc(1vw + 2vh);
+  margin: 0;
+  padding-left: 10px;
+  position: absolute;
+  top: 94%;
+  transform: translate(0, -100%);
+}
+
+.div_1 {
+  background-image: url(appetizers.jpg);
+}
+
+.div_2 {
+  background-image: url(breads.jpg);
+}
+
+.div_3 {
+  background-image: url(drinks.jpg);
+}
+
+.div_4 {
+  background-image: url(fast.jpg);
+}
+
+.header_img {
+  background-image: url(DSC04770.jpg);
+}
+
+.header_text {
+  background-image: url(8020303.png);
+}
+
+.fa-facebook {
+  padding: 20px;
+  padding-right: 30px;
+  color: blue;
+  text-align: center;
+  float: right;
+}
+
+.fa-instagram {
+  padding: 20px;
+  color: red;
+  float: right;
+}
