@@ -244,7 +244,6 @@ getDateTime(new Date);
 
 function verifyPin(test) {
     let pin = parseInt(test);
-    console.log(pin.length)
     if(pin.toString() === test && test.length === 4){
         return true;
     } return false;
