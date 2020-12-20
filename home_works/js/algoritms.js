@@ -187,13 +187,14 @@ const isPrime = function(n) {
         return false;
     }
     for( var i = 2; i < n; i++){
-        if(n % 2 === 0) {
+        if(n % i === 0) {
             return false;
         }
-    } return true;
+    } 
+    return true;
 }
+console.log(isPrime(9))
 
-isPrime(12);
 
 function firstPrime (arr,isPrime ){
      for(var i = 0; i , arr.length; i++){
@@ -202,7 +203,7 @@ function firstPrime (arr,isPrime ){
          }
      }
 }
-console.log(firstPrime([1,4,13,8,2], isPrime))
+console.log(firstPrime([9,1,4,13,8,2], isPrime))
 
 
 
